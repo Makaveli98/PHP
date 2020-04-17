@@ -4,7 +4,7 @@ $bomen = array("img_0050.jpg", "lillypilly1.jpg", "Maranchery_Biyyam_Kayal_kanda
     "weeping-elm0091.jpg");
 
 foreach ($bomen as $boom) {
-    echo "<img src='PHP/img2/".$boom."'>";
+    echo "<img src='../img2/".$boom."'>";
 }
 
 echo "$bomen";

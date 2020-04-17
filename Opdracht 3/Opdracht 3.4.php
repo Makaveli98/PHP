@@ -16,16 +16,18 @@
         border: solid green 5px;
     }
 </style>
-</body>
-</html>
 
 <?php
 
-for ($i =0; $i <=9; $i++) {
-    if ($i == 2) {
+for ($i = 1; $i <=9; $i++) {
+    if ($i % 2 == 0) {
         $class = "class='red'";
     } else {
         $class = "class='green'";
     }
-    echo "<img".$class."src='PHP/img1/aap".$i.".jpg'>";
+    echo "<img ".$class. "src='../img1/aap".$i.".jpg'>";
 }
+?>
+</body>
+</html>
+
